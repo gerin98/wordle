@@ -198,5 +198,5 @@ if __name__ == "__main__":
     possibleLetters, misplacedLetters = inputGetMisplacedLetters()
     letters = inputGetUnusedLetters()
     letters = list(set(letters + list(knownLetters.values())))
-    main(letters, knownLetters, possibleLetters, misplacedLetters)
+    main(letters, knownLetters, possibleLetters, misplacedLetters) 
     
